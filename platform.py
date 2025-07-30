@@ -37,7 +37,7 @@ class Nordicnrf52Platform(PlatformBase):
 
             if self.board_config(board).get("build.bsp.name",
                                             "nrf5") == "adafruit":
-                if board in ("xiaoblesense_adafruit", "xiaoble_adafruit"):
+                if board in ("xiaoblesense_adafruit", "xiaoble_adafruit", "xiaoblesense_adafruit_s340"):
                     self.frameworks["arduino"][
                         "package"] = "framework-arduinoadafruitnrf52-seeed"
                 else:
