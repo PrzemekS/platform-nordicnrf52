@@ -1,7 +1,7 @@
 {
   "build": {
     "arduino": {
-      "ldscript": "nrf52840_s340_v6.ld"
+      "ldscript": "nrf52840_s340_v7.ld"
     },
     "core": "nRF5",
     "cpu": "cortex-m4",
